@@ -196,7 +196,8 @@ document.addEventListener('DOMContentLoaded', function () {
             tags: ['React.js', 'Node.js', 'Express.js', 'Tailwind', 'MongoDB'],
             category: 'fullstack',
             github: 'https://github.com/Anshuman892494/ExamPoint',
-            demo: 'https://exampoint-frontend.onrender.com/',
+            // demo: 'https://exampoint-frontend.onrender.com/',
+            demo: 'https://acciexam.in',
             image: 'https://github.com/Anshuman892494/ExamPoint/blob/main/Screenshots/student_login.png?raw=true'
         },
         {
