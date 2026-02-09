@@ -117,6 +117,7 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fab fa-js', name: 'JavaScript', description: 'ES6+, DOM manipulation, Async programming', level: 80, color: 'text-yellow-400' },
             { icon: 'fab fa-react', name: 'React', description: 'Hooks, Context API, Component Lifecycle', level: 75, color: 'text-red-400' },
             { icon: 'fas fa-bolt', name: 'Tailwind CSS', description: 'Utility-first, Responsive design', level: 85, color: 'text-teal-400' },
+            { icon: 'fab fa-bootstrap', name: 'Bootstrap', description: 'Mobile-first UI, Bootstrap components, grid system', level: 65, color: 'text-purple-500' }
         ],
         backend: [
             { icon: 'fab fa-node-js', name: 'Node.js', description: 'Express, REST APIs, Authentication', level: 70, color: 'text-green-600' },
@@ -124,11 +125,15 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fab fa-php', name: 'PHP', description: 'Express, REST APIs, Authentication', level: 50, color: 'text-indigo-600' },
             { icon: 'fas fa-database', name: 'MongoDB', description: 'Schema design, queries, aggregation', level: 70, color: 'text-green-400' },
             { icon: 'fas fa-server', name: 'MySQL', description: 'Database design, optimization', level: 60, color: 'text-blue-400' },
+            { icon: 'fas fa-plug', name: 'REST API', description: 'routing, validation, authentication', level: 50, color: 'text-gray-400' },
+            { icon: 'fas fa-project-diagram', name: 'GraphQL', description: 'GraphQL queries, mutations, schema design', level: 60, color: 'text-pink-400' }
         ],
         tools: [
             { icon: 'fab fa-git-alt', name: 'Git', description: 'Version control, branching, merging', level: 80, color: 'text-red-600' },
             { icon: 'fab fa-github', name: 'GitHub', description: 'CI/CD, Project management', level: 85, color: 'text-gray-300' },
             { icon: 'fab fa-figma', name: 'Figma', description: 'UI/UX design, prototyping', level: 50, color: 'text-purple-500' },
+            { icon: 'fas fa-palette', name: 'Canva', description: 'Designing social media posts, presentations, posters, marketing creatives', level: 60, color: 'text-sky-400' },
+            { icon: 'fas fa-image', name: 'Photoshop', description: 'Photo editing, manipulation, creative design work', level: 80, color: 'text-blue-800' },
             { icon: 'fas fa-terminal', name: 'VS Code', description: 'Extensions, debugging, shortcuts', level: 90, color: 'text-blue-500' },
         ],
         programming: [
@@ -136,6 +141,7 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fas fa-cogs', name: 'C++', description: 'Competitive programming, STL', level: 50, color: 'text-blue-600' },
             { icon: 'fab fa-js-square', name: 'JavaScript', description: 'Advanced concepts, Design patterns', level: 75, color: 'text-yellow-400' },
             { icon: 'fas fa-code', name: 'Kotlin', description: 'Android development, Coroutines', level: 50, color: 'text-purple-400' },
+            { icon: 'fas fa-mobile-alt', name: 'Flutter', description: 'Framework for cross-platform mobile applications', level: 40, color: 'text-cyan-400' }
         ]
     };
 
