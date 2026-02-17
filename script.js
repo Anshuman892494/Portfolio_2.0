@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fas fa-database', name: 'MongoDB', description: 'Schema design, queries, aggregation', level: 70, color: 'text-green-400' },
             { icon: 'fas fa-server', name: 'MySQL', description: 'Database design, optimization', level: 60, color: 'text-blue-400' },
             { icon: 'fas fa-plug', name: 'REST API', description: 'routing, validation, authentication', level: 50, color: 'text-gray-400' },
-            { icon: 'fas fa-project-diagram', name: 'GraphQL', description: 'GraphQL queries, mutations, schema design', level: 60, color: 'text-pink-400' }
+            // { icon: 'fas fa-project-diagram', name: 'GraphQL', description: 'GraphQL queries, mutations, schema design', level: 60, color: 'text-pink-400' }
         ],
         tools: [
             { icon: 'fab fa-git-alt', name: 'Git', description: 'Version control, branching, merging', level: 80, color: 'text-red-600' },
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fas fa-cogs', name: 'C++', description: 'Competitive programming, STL', level: 50, color: 'text-blue-600' },
             { icon: 'fab fa-js-square', name: 'JavaScript', description: 'Advanced concepts, Design patterns', level: 75, color: 'text-yellow-400' },
             { icon: 'fas fa-code', name: 'Kotlin', description: 'Android development, Coroutines', level: 50, color: 'text-purple-400' },
-            { icon: 'fas fa-mobile-alt', name: 'Flutter', description: 'Framework for cross-platform mobile applications', level: 40, color: 'text-cyan-400' },
+            // { icon: 'fas fa-mobile-alt', name: 'Flutter', description: 'Framework for cross-platform mobile applications', level: 40, color: 'text-cyan-400' },
         ]
     };
 
