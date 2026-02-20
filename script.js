@@ -194,8 +194,23 @@ document.addEventListener('DOMContentLoaded', function () {
     const projectsGrid = document.getElementById('projects-grid');
 
     const projectsData = [
-
-
+        {
+            id: 8,
+            title: "SwasthSeva",
+            description:
+                "A full-stack MERN medical appointment system with Role-Based Access Control (Patients/Doctors), JWT auth, and protected routes for booking and managing appointments.",
+            tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Render"],
+            category: "web",
+            github: "https://github.com/Anshuman892494/SwasthSeva",
+            demo: "https://swasthseva.onrender.com",
+            image:
+                "https://github.com/Anshuman892494/SwasthSeva/blob/main/ScreenShots/Screenshot%202026-02-20%20112225.png?raw=true",
+            highlights: [
+                "Patient: Register/Login, book appointments, track status",
+                "Doctor: View assigned appointments, approve/reject requests",
+                "Security: JWT Authentication, bcrypt password hashing, protected routes"
+            ]
+        },
         {
             id: 10,
             title: 'ExamPoint',
@@ -258,16 +273,6 @@ document.addEventListener('DOMContentLoaded', function () {
             image: 'https://echoes-of-eternity-two.vercel.app/assets/Echoes_Of_Eternit.jpeg'
         },
         {
-            id: 4,
-            title: 'Android Calculator',
-            description: 'Fully functional calculator application with clean UI developed using Kotlin and Android Studio.',
-            tags: ['Kotlin', 'Android'],
-            category: 'mobile',
-            github: 'https://github.com/Anshuman892494/Android_Calculator_Applicaion',
-            demo: null,
-            image: 'https://miro.medium.com/v2/resize:fit:1342/1*PA_i1jV3ji9_odcK9JT30Q.png'
-        },
-        {
             id: 3,
             title: 'ID Card Generator',
             description: 'Create custom ID cards with live preview, QR code, and download functionality.',
@@ -276,16 +281,6 @@ document.addEventListener('DOMContentLoaded', function () {
             github: 'https://github.com/Anshuman892494/id_card_generator',
             demo: 'https://id-card-generator-ten-roan.vercel.app/',
             image: 'https://github.com/Anshuman892494/id_card_generator/blob/main/ID_Generator.png?raw=true'
-        },
-        {
-            id: 2,
-            title: 'AI Hotel Booking Assistant',
-            description: 'Web application that helps users search and book hotels using voice commands and card-based UI.',
-            tags: ['HTML5', 'CSS', 'Tailwind', 'JavaScript', 'Rapid API'],
-            category: 'web',
-            github: 'https://github.com/Anshuman892494/ai-hotel-booking-assistant',
-            demo: null,
-            image: 'https://github.com/Anshuman892494/ai-hotel-booking-assistant/blob/main/Screenshot%202026-02-02%20125123.png?raw=true'
         },
         {
             id: 1,
