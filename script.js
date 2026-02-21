@@ -217,7 +217,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: 'A full-stack MERN-based online examination platform with a secure authentication, timed exams, and optimized backend logic.',
             tags: ['React.js', 'Node.js', 'Express.js', 'Tailwind', 'MongoDB'],
             category: 'fullstack',
-            // github: 'https://github.com/Anshuman892494/ExamPoint',
+            github: 'https://github.com/Anshuman892494/ExamPoint',
             // demo: 'https://exampoint-frontend.onrender.com/',
             demo: 'https://acciexam.in',
             image: 'https://github.com/Anshuman892494/Portfolio_2/blob/main/img/Screenshot%202026-02-06%20065612.png?raw=true'
