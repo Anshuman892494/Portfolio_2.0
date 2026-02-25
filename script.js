@@ -195,21 +195,36 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const projectsData = [
         {
+            id: 9,
+            title: "ChatoriApp",
+            description:
+                "A full-stack MERN food delivery ecosystem with separate Client + Admin + Delivery portals, Razorpay payments, Cloudinary image uploads and Firebase auth.",
+            tags: [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Firebase Auth",
+                "Razorpay",
+                "Cloudinary",
+            ],
+            category: "fullstack",
+            github: "https://github.com/Anshuman892494/ChatoriApp-Food_Delivery_System",
+            demo: "https://chatoriapp-client.onrender.com/",
+            image:
+                "https://github.com/Anshuman892494/ChatoriApp-Food_Delivery_System/blob/main/Screenshot/Screenshot%202026-02-25%20054540.png?raw=true",
+        },
+        {
             id: 8,
             title: "SwasthSeva",
             description:
                 "A full-stack MERN medical appointment system with Role-Based Access Control (Patients/Doctors), JWT auth, and protected routes for booking and managing appointments.",
             tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Render"],
-            category: "web",
+            category: "fullstack",
             github: "https://github.com/Anshuman892494/SwasthSeva",
             demo: "https://swasthseva.onrender.com",
             image:
                 "https://github.com/Anshuman892494/SwasthSeva/blob/main/ScreenShots/Screenshot%202026-02-20%20112225.png?raw=true",
-            highlights: [
-                "Patient: Register/Login, book appointments, track status",
-                "Doctor: View assigned appointments, approve/reject requests",
-                "Security: JWT Authentication, bcrypt password hashing, protected routes"
-            ]
         },
         {
             id: 10,
@@ -231,16 +246,6 @@ document.addEventListener('DOMContentLoaded', function () {
             github: 'https://github.com/Anshuman892494/Portfolio_2',
             demo: 'https://anshuman-ten.vercel.app/',
             image: 'https://github.com/Anshuman892494/Portfolio_2.0/blob/main/Screenshot%202026-02-02%20125606.png?raw=true'
-        },
-        {
-            id: 8,
-            title: 'TypeACCI',
-            description: 'A React-based typing practice web-app for students to improve speed and accuracy with real-time clean practice modes.',
-            tags: ['React.js', 'CSS', 'Typing', 'Vercel'],
-            category: 'web',
-            github: 'https://github.com/Anshuman892494/TypeACCI',
-            demo: 'https://type-acci.vercel.app/',
-            image: 'https://github.com/Anshuman892494/TypeACCI/raw/main/Screenshots/Screenshot%202026-02-02%20100741.png?raw=true'
         },
         {
             id: 7,
