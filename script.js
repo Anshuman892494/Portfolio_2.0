@@ -120,13 +120,13 @@ document.addEventListener('DOMContentLoaded', function () {
             { icon: 'fab fa-bootstrap', name: 'Bootstrap', description: 'Mobile-first UI, Bootstrap components, grid system', level: 65, color: 'text-purple-500' }
         ],
         backend: [
-            { icon: 'fab fa-node-js', name: 'Node.js', description: 'Express, REST APIs, Authentication', level: 70, color: 'text-green-600' },
-            { icon: 'fab fa-node-js', name: 'Express.js', description: 'Express, REST APIs, Authentication', level: 65, color: 'text-yellow-600' },
-            { icon: 'fab fa-php', name: 'PHP', description: 'Express, REST APIs, Authentication', level: 50, color: 'text-indigo-600' },
-            { icon: 'fas fa-database', name: 'MongoDB', description: 'Schema design, queries, aggregation', level: 70, color: 'text-green-400' },
-            { icon: 'fas fa-server', name: 'MySQL', description: 'Database design, optimization', level: 60, color: 'text-blue-400' },
-            { icon: 'fas fa-plug', name: 'REST API', description: 'routing, validation, authentication', level: 50, color: 'text-gray-400' },
-            // { icon: 'fas fa-project-diagram', name: 'GraphQL', description: 'GraphQL queries, mutations, schema design', level: 60, color: 'text-pink-400' }
+            { icon: 'fab fa-node-js', name: 'Node.js', description: 'JavaScript runtime for scalable backend and APIs', level: 70, color: 'text-green-600' },
+            { icon: 'fab fa-node-js', name: 'Express.js', description: 'Fast Node.js framework for routing and APIs', level: 65, color: 'text-yellow-600' },
+            { icon: 'fab fa-php', name: 'PHP', description: 'Server-side language for dynamic web apps', level: 50, color: 'text-indigo-600' },
+            { icon: 'fab fa-laravel', name: 'Laravel', description: 'PHP MVC framework with routing and ORM', level: 20, color: 'text-red-500' },
+            { icon: 'fas fa-database', name: 'MongoDB', description: 'NoSQL database with flexible schema', level: 70, color: 'text-green-400' },
+            { icon: 'fas fa-server', name: 'MySQL', description: 'Relational database for structured data', level: 60, color: 'text-blue-400' },
+            { icon: 'fas fa-plug', name: 'REST API', description: 'Design and integration of web APIs', level: 50, color: 'text-gray-400' },
         ],
         tools: [
             { icon: 'fab fa-git-alt', name: 'Git', description: 'Version control, branching, merging', level: 80, color: 'text-red-600' },
